@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/mm.v"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include
+        layout="@layout/widget_toolbar_navigation"/>
+
+    <TextView
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:text="EasyApp开发框架内置了众多便捷工具，可以随时调用"/>
+
+    <ScrollView
+        style="@style/mm">
+
+        <LinearLayout
+            style="@style/mw.v">
+
+            <TextView
+                style="@style/ww"
+                android:layout_margin="8dp"
+                android:text="Bundle工具\nBundle bundle = BundleUtil.create(&quot;key&quot;, &quot;value&quot;);\n创建一个Bundle"/>
+
+            <TextView
+                style="@style/ww"
+                android:layout_margin="8dp"
+                android:text="日期工具\nString date = DateUtil.getCurrentDate();\n获取当前日期"/>
+
+            <TextView
+                style="@style/ww"
+                android:layout_margin="8dp"
+                android:text="目录工具\nint size = DirUtil.calculateDirSize(&quot;dir&quot;);\n计算目录大小"/>
+
+            <TextView
+                style="@style/ww"
+                android:layout_margin="8dp"
+                android:text="文件工具\nFileUtil.copyFile(&quot;source&quot;, &quot;target&quot;);\n拷贝文件"/>
+
+            <TextView
+                style="@style/ww"
+                android:layout_margin="8dp"
+                android:text="Intent工具\nIntent bundle = IntentUtil.create(context, MainActivity.class);\n创建一个Intent"/>
+
+            <TextView
+                style="@style/ww"
+                android:layout_margin="8dp"
+                android:text="IO工具\nbyte[] bytes = IOUtil.read(socket, 1024);\n从socket读取字节"/>
+
+            <TextView
+                style="@style/ww"
+                android:layout_margin="8dp"
+                android:text="Json工具\nString json = JsonUtil.toString(object);\n序列化object\nObject object = JsonUtil.toObject(&quot;{'name':name}&quot;, Object.class);\n反序列化Object"/>
+
+            <TextView
+                style="@style/ww"
+                android:layout_margin="8dp"
+                android:text="网络工具\nString ipAddress = NetUtil.getIPAddress(context);\n获得IP地址"/>
+
+            <TextView
+                style="@style/ww"
+                android:layout_margin="8dp"
+                android:text="字符串工具\nString md5 = StringUtil.toMD5(&quot;Hello World!&quot;);\n转化MD5码"/>
+
+            <TextView
+                style="@style/ww"
+                android:layout_margin="8dp"
+                android:text="视图工具\nViewUtil.showInputMethod(view);\n显示输入法\nViewUtil.hideInputMethod(view);\n隐藏输入法"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

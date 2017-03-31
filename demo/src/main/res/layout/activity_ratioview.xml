@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/mm.v">
+
+    <include
+        layout="@layout/widget_toolbar_navigation"/>
+
+    <com.harreke.easyapp.widget.ratioview.RatioFrameLayout
+        style="@style/mw"
+        android:background="@color/red"
+        android:padding="2dp"
+        app:ratio="1">
+
+        <ImageView
+            style="@style/mm"
+            android:scaleType="fitXY"
+            android:src="@android:drawable/sym_action_email"/>
+
+        <TextView
+            style="@style/ww"
+            android:background="@color/transparentDarkGray"
+            android:padding="8dp"
+            android:text="RatioFrameLayout，比例1:1"
+            android:textColor="@color/white"/>
+
+        <TextView
+            style="@style/ww"
+            android:layout_gravity="bottom|right"
+            android:background="@color/transparentDarkGray"
+            android:padding="8dp"
+            android:text="Hello Word!"
+            android:textColor="@color/white"/>
+
+    </com.harreke.easyapp.widget.ratioview.RatioFrameLayout>
+
+    <TextView
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:text="EasyApp开发框架内置等比缩放视图RatioFrameLayout和RatioImageView，可以在xml中为视图指定一个宽高比"/>
+
+</LinearLayout>

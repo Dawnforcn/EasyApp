@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/mm.v"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background">
+
+    <include
+        layout="@layout/widget_toolbar_navigation"/>
+
+    <TextView
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:text="EasyApp框架使用Toolbar作为ActionBar的替代品，使用简便，支持一切ActionBar的特性\n\n只需要提供一个菜单xml文件，Toolbar将自动识别并填充菜单内容"/>
+
+</LinearLayout>

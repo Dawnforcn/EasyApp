@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/mm.v"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include
+        layout="@layout/widget_toolbar_navigation"/>
+
+    <com.harreke.easyapp.widget.sizeabledrawableview.SizableDrawableTextView
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:drawableLeft="@android:drawable/ic_notification_clear_all"
+        android:gravity="center"
+        android:text="文本绘图大小：默认（绘图默认大小48dp）"/>
+
+    <com.harreke.easyapp.widget.sizeabledrawableview.SizableDrawableTextView
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:drawableLeft="@android:drawable/ic_notification_clear_all"
+        android:gravity="center"
+        android:text="文本绘图大小：24dp"
+        app:drawableHeight="24dp"
+        app:drawableWidth="24dp"/>
+
+    <com.harreke.easyapp.widget.sizeabledrawableview.SizableDrawableTextView
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:drawableLeft="@android:drawable/ic_notification_clear_all"
+        android:gravity="center"
+        android:text="文本绘图大小：72dp"
+        app:drawableHeight="72dp"
+        app:drawableWidth="72dp"/>
+
+    <TextView
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:text="EasyApp开发框架内置可控绘图视图，可以在xml文件中直接指定TextView及其衍生视图（EditText、RadioButton等）中绘图（drawable）的大小"/>
+
+</LinearLayout>

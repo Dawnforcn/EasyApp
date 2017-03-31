@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ww.h"
+    android:background="@drawable/shape_toast"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <ProgressBar
+        android:id="@+id/toast_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"/>
+
+    <TextView
+        android:id="@+id/toast_text"
+        style="@style/ww"
+        android:layout_marginLeft="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead.Inverse"/>
+
+</LinearLayout>

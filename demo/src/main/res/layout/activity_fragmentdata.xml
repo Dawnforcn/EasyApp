@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/mm.v"
+    android:background="@color/background">
+
+    <include
+        layout="@layout/widget_toolbar_navigation"/>
+
+    <TextView
+        android:id="@+id/fragment_data_toast"
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:text="在这里显示从Fragment接收的消息"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="@color/red"/>
+
+    <EditText
+        android:id="@+id/fragment_data_input"
+        style="@style/ww"
+        android:hint="输入发送给Fragment的消息"/>
+
+    <LinearLayout
+        style="@style/ww.h">
+
+        <Button
+            android:id="@+id/fragment_data_send1"
+            style="@style/ww"
+            android:text="发送给Fragment 1"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/fragment_data_send2"
+            style="@style/ww"
+            android:text="发送给Fragment 2"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:text="Activity框架内置与内部Fragment交互功能，只需要执行\n\nsendDataToFragment(String tag, String message, Object data);\n\n即可使用"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray"/>
+
+    <include
+        layout="@layout/widget_pager_tab"/>
+
+</LinearLayout>

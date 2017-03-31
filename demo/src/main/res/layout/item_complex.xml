@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/mw.h"
+    android:gravity="center_vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@android:drawable/star_big_on"/>
+
+    <LinearLayout
+        style="@style/mw.v">
+
+        <TextView
+            android:id="@+id/complex_text"
+            style="@style/mw"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+        <TextView
+            android:id="@+id/complex_text_sub"
+            style="@style/mw"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+
+    </LinearLayout>
+
+</LinearLayout>

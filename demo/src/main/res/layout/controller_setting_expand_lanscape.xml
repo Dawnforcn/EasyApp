@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:background="@color/transparentDarkGray"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        style="@style/mw.h"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="播放器设置"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+    <ScrollView
+        style="@style/mm">
+
+        <LinearLayout
+            style="@style/mw.v">
+
+            <LinearLayout
+                style="@style/mw.h"
+                android:gravity="center_vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="切换播放器"
+                    android:textColor="@color/white"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+                <RadioGroup
+                    style="@style/ww.h">
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        style="@style/ww"
+                        android:gravity="center_vertical"
+                        android:text="软解"
+                        android:textColor="@color/white"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        style="@style/ww"
+                        android:layout_marginLeft="8dp"
+                        android:gravity="center_vertical"
+                        android:text="软解"
+                        android:textColor="@color/white"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/mw.h"
+                android:gravity="center_vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="屏幕亮度"
+                    android:textColor="@color/white"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+                <android.support.v7.widget.AppCompatSeekBar
+                    style="@style/mw"
+                    android:layout_marginRight="48dp"
+                    android:max="100"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/mw.h"
+                android:gravity="center_vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="视频比例"
+                    android:textColor="@color/white"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+                <android.support.v7.widget.AppCompatSeekBar
+                    style="@style/mww"
+                    android:max="4"/>
+
+                <TextView
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="自动"
+                    android:textColor="?attr/colorAccent"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

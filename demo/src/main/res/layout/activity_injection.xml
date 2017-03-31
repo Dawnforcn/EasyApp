@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/mm.v"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include
+        layout="@layout/widget_toolbar_navigation"/>
+
+    <TextView
+        android:id="@+id/text1"
+        style="@style/ww"
+        android:padding="16dp"
+        android:text="Hello World"/>
+
+    <TextView
+        android:id="@+id/text2"
+        style="@style/ww"
+        android:padding="16dp"
+        android:text="Click Me"/>
+
+    <TextView
+        android:id="@+id/text3"
+        style="@style/ww"
+        android:padding="16dp"
+        android:text="Touch Me"/>
+
+    <CheckBox
+        android:id="@+id/text4"
+        style="@style/ww"
+        android:padding="16dp"
+        android:text="Check Me"/>
+
+    <RadioGroup
+        android:id="@+id/text5"
+        style="@style/ww"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/text5_1"
+            style="@style/ww"
+            android:padding="16dp"
+            android:text="Radio Check Me 1"/>
+
+        <RadioButton
+            android:id="@+id/text5_2"
+            style="@style/ww"
+            android:padding="16dp"
+            android:text="Radio Check Me 2"/>
+
+    </RadioGroup>
+
+</LinearLayout>

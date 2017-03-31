@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/mw.h"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:padding="8dp">
+
+    <RadioButton
+        android:id="@+id/controller_definition_sd"
+        style="@style/ww"
+        android:background="@drawable/background_button_light"
+        android:gravity="center"
+        android:text="标清"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+
+    <RadioButton
+        android:id="@+id/controller_definition_hd"
+        style="@style/ww"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/background_button_light"
+        android:gravity="center"
+        android:text="高清"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+
+    <RadioButton
+        android:id="@+id/controller_definition_ed"
+        style="@style/ww"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/background_button_light"
+        android:gravity="center"
+        android:text="超清"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+
+</LinearLayout>

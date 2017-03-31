@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/mm.v"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background">
+
+    <!--<include-->
+        <!--layout="@layout/widget_toolbar_navigation"/>-->
+
+    <!--<RadioGroup-->
+        <!--android:id="@+id/recycler_group"-->
+        <!--style="@style/ww.h">-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/recycler_linear"-->
+            <!--style="@style/ww"-->
+            <!--android:text="线性列表"/>-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/recycler_grid"-->
+            <!--style="@style/ww"-->
+            <!--android:text="网格列表"/>-->
+
+    <!--</RadioGroup>-->
+
+    <!--<LinearLayout-->
+        <!--style="@style/ww.h">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/recycler_load_simple"-->
+            <!--style="@style/ww"-->
+            <!--android:text="加载单一简单列表"/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/recycler_load_complex"-->
+            <!--style="@style/ww"-->
+            <!--android:text="加载混搭复杂列表"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1px"-->
+        <!--android:background="@color/gray"/>-->
+
+    <!--<include-->
+        <!--layout="@layout/widget_recycler_swipe_empty"/>-->
+
+</LinearLayout>

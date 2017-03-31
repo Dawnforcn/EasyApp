@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/mm.v"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include
+        layout="@layout/widget_toolbar_navigation"/>
+
+    <TextView
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:text="EasyApp开发框架内置手势助手GestureHelper，可以监控最多2个点的手势动作"/>
+
+    <TextView
+        android:id="@+id/gesture_toast"
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:text="当前手势："/>
+
+    <include
+        layout="@layout/widget_divider_horizontal"/>
+
+    <FrameLayout
+        android:id="@+id/gesture_area"
+        style="@style/mm"
+        android:background="@color/buttonDark"
+        android:clickable="true">
+
+        <TextView
+            style="@style/ww"
+            android:layout_gravity="center"
+            android:text="触摸区域"
+            android:textColor="@color/lightGray"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+    </FrameLayout>
+
+</LinearLayout>

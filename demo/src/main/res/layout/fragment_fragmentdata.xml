@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/mm.v"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/data_toast"
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:text="在这里显示从Activity接收的消息"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/blue"/>
+
+    <EditText
+        android:id="@+id/data_input"
+        style="@style/ww"
+        android:hint="输入发送给Activity的消息"/>
+
+    <Button
+        android:id="@+id/data_send"
+        style="@style/ww"
+        android:text="发送给Activity"
+        android:textAllCaps="false"/>
+
+    <TextView
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:text="Fragment框架内置与Activity交互功能，只需要执行\n\nsendDataToActivity(String message, Object data);\n\n即可使用"/>
+
+</LinearLayout>

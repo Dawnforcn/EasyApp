@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/view_pager_root"
+    style="@style/mm.v"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        style="@style/mw"
+        app:tabBackground="@drawable/background_button_dark"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        app:tabTextAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        style="@style/mm"/>
+
+</LinearLayout>

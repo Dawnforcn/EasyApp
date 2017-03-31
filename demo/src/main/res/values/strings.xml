@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="app_name">EasyApp Demo</string>
+
+    <string name="activity_framework">Activity框架</string>
+    <string name="activity_toolbar">动作条-Toolbar</string>
+    <string name="activity_toast">提示消息-Toast</string>
+    <string name="activity_fragment_data">Fragment交互-FragmentData</string>
+    <string name="activity_connection_change">网络连接-ConnectionChange</string>
+    <string name="activity_swipe_to_finish">滑动退出-SwipeToFinish</string>
+    <string name="activity_shared_transition">共享元素动画-SharedTransition</string>
+
+    <string name="activity_data">数据资源</string>
+    <string name="activity_loader">网络加载-LoaderHelper</string>
+    <string name="activity_recycler">列表框架-RecyclerFramework</string>
+    <string name="activity_web">网页框架-WebFramework</string>
+    <string name="activity_viewpager">分页框架-ViewPagerFramework</string>
+    <string name="activity_fragment_pager">Fragment分页框架-FragmentPagerFramework</string>
+
+    <string name="activity_helper">助手</string>
+    <string name="activity_compound_button">复合按钮-CompoundButtonHelper</string>
+    <string name="activity_gesture">手势检测-GestureHelper</string>
+    <string name="activity_palette">调色板-PaletteHelper</string>
+    <string name="activity_view_switch">视图切换-ViewSwitchHelper</string>
+
+    <string name="activity_widget">控件</string>
+    <string name="activity_view_animator">视图动画-ViewAnimator</string>
+    <string name="activity_auto_fit_view">自适应视图-AutoFitView</string>
+    <string name="activity_circular_progress">圆形进度条-CircularProgress</string>
+    <string name="activity_controller_layout">控制布局-ControllerLayout</string>
+    <string name="activity_ratio_view">比例缩放视图-RatioView</string>
+    <string name="activity_ripple">涟漪特效-Ripple</string>
+    <string name="activity_sizable_drawable_view">可控绘图视图-SizableDrawableView</string>
+    <string name="activity_grid_image_view">网格图片视图-GridImageView</string>
+    <string name="activity_soft_input_edit_text">可控输入视图-SoftInputEditText</string>
+
+    <string name="activity_util">工具</string>
+    <string name="activity_utils">常用-Util</string>
+    <string name="activity_injection">预编译注入</string>
+
+</resources>

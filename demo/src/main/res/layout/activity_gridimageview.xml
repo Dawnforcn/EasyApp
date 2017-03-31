@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/mm.v"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include
+        layout="@layout/widget_toolbar_navigation"/>
+
+    <com.harreke.easyapp.widget.gridview.GridImageView
+        android:id="@+id/grid_image"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:background="@color/red"
+        android:padding="2dp"
+        android:src="@android:drawable/ic_dialog_email"
+        app:grid_line_divider="@color/darkGray"
+        app:grid_line_max="3"
+        app:grid_row_divider="@color/darkGray"
+        app:grid_row_max="3"/>
+
+    <ImageView
+        android:id="@+id/grid_target"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/red"
+        android:padding="2dp"
+        android:src="@color/background"/>
+
+    <TextView
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:text="EasyApp开发框架内置了网格图片，可以便捷地获取用户点击网格坐标和点击区域图片"/>
+
+</LinearLayout>

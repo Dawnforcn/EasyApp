@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/ww.v"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:background="@color/transparentDarkGray"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <com.harreke.easyapp.widget.circluarprogress.CircularProgressView
+        android:id="@+id/middle_progress_view"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:progressColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/middle_progress_text"
+        style="@style/ww"
+        android:text="正在缓冲 …"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+    <TextView
+        android:id="@+id/middle_progress_lag"
+        style="@style/ww"
+        android:text="如遇卡顿，请降低视频清晰度"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+
+</LinearLayout>

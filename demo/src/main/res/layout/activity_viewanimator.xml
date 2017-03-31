@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/root"
+    style="@style/mm.v"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/view_play1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:text="Hello World!"
+        android:textColor="@color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+    <Button
+        android:id="@+id/button_play1"
+        style="@style/ww"
+        android:layout_marginTop="176dp"
+        android:onClick="onPlay1Click"
+        android:text="播放动画：位移、大小、旋转变换"/>
+
+    <Button
+        android:id="@+id/button_play1_reverse"
+        style="@style/ww"
+        android:layout_marginTop="176dp"
+        android:onClick="onPlay1ReverseClick"
+        android:text="反转播放动画"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/view_play2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="226dp"
+        android:gravity="center"
+        android:text="Hello World!"
+        android:textColor="@color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+    <Button
+        android:id="@+id/button_play2"
+        style="@style/ww"
+        android:layout_marginTop="346dp"
+        android:onClick="onPlay2Click"
+        android:text="播放动画：起始、终止可见性"/>
+
+    <Button
+        android:id="@+id/button_play2_reverse"
+        style="@style/ww"
+        android:layout_marginTop="346dp"
+        android:onClick="onPlay2ReverseClick"
+        android:text="反转播放动画"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/view_play3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="396dp"
+        android:gravity="center"
+        android:text="Hello World!"
+        android:textColor="@color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+    <Button
+        android:id="@+id/button_play3"
+        style="@style/ww"
+        android:layout_marginTop="516dp"
+        android:onClick="onPlay3Click"
+        android:text="播放动画：背景色、文字色变换"/>
+
+    <Button
+        android:id="@+id/button_play3_reverse"
+        style="@style/ww"
+        android:layout_marginTop="516dp"
+        android:onClick="onPlay3ReverseClick"
+        android:text="反转播放动画"
+        android:visibility="gone"/>
+
+    <include
+        layout="@layout/widget_toolbar_navigation"/>
+
+</FrameLayout>

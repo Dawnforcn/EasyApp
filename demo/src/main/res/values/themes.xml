@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="Theme.Demo" parent="Theme.EasyApp">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.Demo.FullScreen" parent="Theme.Demo">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.Demo.Translucent" parent="Theme.Demo">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+</resources>

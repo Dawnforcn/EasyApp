@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/mw.h"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/transparentDarkGray"
+    android:clickable="true"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/top_bar_back"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/background_button_light"
+        android:padding="8dp"
+        android:src="@drawable/vector_arrow_left"/>
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/buttonLight"/>
+
+    <TextView
+        android:id="@+id/top_bar_title"
+        style="@style/mww"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/buttonLight"/>
+
+    <TextView
+        android:id="@+id/top_bar_setting"
+        android:layout_width="84dp"
+        android:layout_height="48dp"
+        android:background="@drawable/background_button_light"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp"
+        android:text="设置"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+</LinearLayout>

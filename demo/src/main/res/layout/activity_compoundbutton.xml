@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/mm.v"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include
+        layout="@layout/widget_toolbar_navigation"/>
+
+    <LinearLayout
+        style="@style/ww.h">
+
+        <RadioButton
+            android:id="@+id/compound_button1"
+            style="@style/ww"
+            android:text="按钮1"/>
+
+        <RadioButton
+            android:id="@+id/compound_button2"
+            style="@style/ww"
+            android:text="按钮2"/>
+
+        <RadioButton
+            android:id="@+id/compound_button3"
+            style="@style/ww"
+            android:text="按钮3"/>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:text="Hello World!"/>
+
+    <RadioButton
+        android:id="@+id/compound_button4"
+        style="@style/ww"
+        android:text="按钮4"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"/>
+
+    <LinearLayout
+        style="@style/ww"
+        android:gravity="center_vertical">
+
+        <RadioButton
+            android:id="@+id/compound_button5"
+            style="@style/ww"
+            android:text="按钮5"/>
+
+        <ImageView
+            style="@style/ww"
+            android:layout_margin="8dp"
+            android:src="@android:drawable/ic_menu_add"/>
+
+        <RadioButton
+            android:id="@+id/compound_button6"
+            style="@style/ww"
+            android:text="按钮6"/>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:text="EasyApp开发框架内置复合按钮助手CompoundButtonHelper，类似于RadioGroup\n\nRadioGroup要求所有按钮都在同一个布局内\n而复合按钮助手可以将布局中任意复合按钮组合起来使用"/>
+
+</LinearLayout>

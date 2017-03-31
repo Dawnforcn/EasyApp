@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/mm.v"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.PaletteActivity">
+
+    <include
+        layout="@layout/widget_toolbar_navigation"/>
+
+    <LinearLayout
+        style="@style/ww.h"
+        android:padding="4dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/palette_image1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:placeholderImage="@color/gray"/>
+
+        <FrameLayout
+            android:id="@+id/palette_image1_background"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/ww.h"
+                android:layout_margin="8dp"
+                android:text="背景"
+                android:textColor="@color/white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+
+            <TextView
+                android:id="@+id/palette_image1_title"
+                style="@style/ww.h"
+                android:layout_gravity="center"
+                android:text="标题"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+            <TextView
+                android:id="@+id/palette_image1_body"
+                style="@style/ww.h"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                android:text="内容"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/ww.h"
+        android:padding="4dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/palette_image2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:placeholderImage="@color/gray"/>
+
+        <FrameLayout
+            android:id="@+id/palette_image2_background"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/ww.h"
+                android:layout_margin="8dp"
+                android:text="背景"
+                android:textColor="@color/white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+
+            <TextView
+                android:id="@+id/palette_image2_title"
+                style="@style/ww.h"
+                android:layout_gravity="center"
+                android:text="标题"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+            <TextView
+                android:id="@+id/palette_image2_body"
+                style="@style/ww.h"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                android:text="内容"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/ww.h"
+        android:padding="4dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/palette_image3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:placeholderImage="@color/gray"/>
+
+        <FrameLayout
+            android:id="@+id/palette_image3_background"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/ww.h"
+                android:layout_margin="8dp"
+                android:text="背景"
+                android:textColor="@color/white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+
+            <TextView
+                android:id="@+id/palette_image3_title"
+                style="@style/ww.h"
+                android:layout_gravity="center"
+                android:text="标题"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+            <TextView
+                android:id="@+id/palette_image3_body"
+                style="@style/ww.h"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                android:text="内容"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:text="EasyApp开发框架内置调色板助手，可以快速从一张图片中提取出特征颜色，包括背景色、标题颜色和内容颜色等"/>
+
+</LinearLayout>

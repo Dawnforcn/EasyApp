@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/mm.v"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background">
+
+    <include
+        layout="@layout/widget_toolbar_navigation"/>
+
+    <Button
+        android:id="@+id/toast_show"
+        style="@style/ww"
+        android:text="显示临时性Toast"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/toast_show_indeterminate"
+        style="@style/ww"
+        android:text="显示持续性Toast"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/toast_hide"
+        style="@style/ww"
+        android:text="隐藏Toast"
+        android:textAllCaps="false"/>
+
+    <TextView
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:text="Activity框架内置Toast功能，只需要执行\n\nshowToast(String message);\n\n即可使用"/>
+
+</LinearLayout>

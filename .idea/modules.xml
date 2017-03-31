@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EasyApp.iml" filepath="$PROJECT_DIR$/EasyApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animator/animator.iml" filepath="$PROJECT_DIR$/animator/animator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/controllerlayout/controllerlayout.iml" filepath="$PROJECT_DIR$/controllerlayout/controllerlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easynetwork/easynetwork.iml" filepath="$PROJECT_DIR$/easynetwork/easynetwork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helper/helper.iml" filepath="$PROJECT_DIR$/helper/helper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/injection/injection.iml" filepath="$PROJECT_DIR$/injection/injection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/injection-processor/injection-processor.iml" filepath="$PROJECT_DIR$/injection-processor/injection-processor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/network/network.iml" filepath="$PROJECT_DIR$/network/network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pager/pager.iml" filepath="$PROJECT_DIR$/pager/pager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/widget/widget.iml" filepath="$PROJECT_DIR$/widget/widget.iml" />
+    </modules>
+  </component>
+</project>

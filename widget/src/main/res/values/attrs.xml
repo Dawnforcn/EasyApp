@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="app">
+        <attr name="autoPlay" format="boolean"/>
+        <attr name="autoRepeat" format="boolean"/>
+        <attr name="drawableWidth" format="dimension"/>
+        <attr name="drawableHeight" format="dimension"/>
+        <attr name="centeringDrawable" format="boolean"/>
+        <attr name="progressColor" format="color"/>
+        <attr name="ratio" format="float"/>
+        <attr name="grid_row_max" format="integer"/>
+        <attr name="grid_row_divider" format="reference"/>
+        <attr name="grid_row_divider_width" format="dimension"/>
+        <attr name="grid_line_max" format="integer"/>
+        <attr name="grid_line_divider" format="reference"/>
+        <attr name="grid_line_divider_height" format="dimension"/>
+        <attr name="property_text" format="string"/>
+        <attr name="property_text_color" format="color"/>
+        <attr name="property_text_size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircularProgressView">
+        <attr name="android:progress"/>
+        <attr name="progressColor"/>
+    </declare-styleable>
+
+    <declare-styleable name="RatioFrameLayout">
+        <attr name="ratio"/>
+    </declare-styleable>
+
+    <declare-styleable name="RatioLinearLayout">
+        <attr name="ratio"/>
+    </declare-styleable>
+
+    <declare-styleable name="RatioImageView">
+        <attr name="ratio"/>
+    </declare-styleable>
+
+    <declare-styleable name="SizableDrawableTextView">
+        <attr name="drawableWidth"/>
+        <attr name="drawableHeight"/>
+        <attr name="centeringDrawable"/>
+    </declare-styleable>
+
+    <declare-styleable name="SizableDrawableEditText">
+        <attr name="drawableWidth"/>
+        <attr name="drawableHeight"/>
+        <attr name="centeringDrawable"/>
+    </declare-styleable>
+
+    <declare-styleable name="SizableDrawableRadioButton">
+        <attr name="drawableWidth"/>
+        <attr name="drawableHeight"/>
+        <attr name="centeringDrawable"/>
+    </declare-styleable>
+
+    <declare-styleable name="GifImageView">
+        <attr name="android:src"/>
+        <attr name="autoPlay"/>
+        <attr name="autoRepeat"/>
+    </declare-styleable>
+
+    <declare-styleable name="GridImageView">
+        <attr name="grid_row_max"/>
+        <attr name="grid_row_divider"/>
+        <attr name="grid_row_divider_width"/>
+        <attr name="grid_line_max"/>
+        <attr name="grid_line_divider"/>
+        <attr name="grid_line_divider_height"/>
+    </declare-styleable>
+
+    <declare-styleable name="PropertyTextView">
+        <attr name="property_text"/>
+        <attr name="property_text_color"/>
+        <attr name="property_text_size"/>
+    </declare-styleable>
+</resources>

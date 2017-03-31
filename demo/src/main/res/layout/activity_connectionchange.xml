@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/mm.v"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background">
+
+    <include
+        layout="@layout/widget_toolbar_navigation"/>
+
+    <TextView
+        android:id="@+id/connection_change_status"
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:text="网络状态："/>
+
+    <TextView
+        android:id="@+id/connection_change_status_mobile"
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:text="2G/3G/4G网络状态："/>
+
+    <TextView
+        android:id="@+id/connection_change_status_wifi"
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:text="WIFI网络状态："/>
+
+    <TextView
+        style="@style/ww"
+        android:layout_margin="8dp"
+        android:text="Activity框架内置网络状态监听功能，会在网络状态出现变化时自动触发\n\nvoid onConnectionChange(boolean isConnected);"/>
+
+</LinearLayout>

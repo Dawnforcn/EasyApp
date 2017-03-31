@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/mw.h"
+    android:layout_gravity="center_horizontal|bottom"
+    android:background="@color/transparentDarkGray"
+    android:clickable="true">
+
+    <ImageView
+        android:id="@+id/bottom_bar_pause"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/background_button_light"
+        android:padding="8dp"
+        android:src="@android:drawable/ic_media_pause"/>
+
+    <ImageView
+        android:id="@+id/bottom_bar_play"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/background_button_light"
+        android:padding="8dp"
+        android:src="@android:drawable/ic_media_play"
+        android:visibility="gone"/>
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/buttonLight"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@color/white">
+
+        <com.harreke.easyapp.widget.softinputview.SoftInputEditText
+            android:id="@+id/bottom_bar_input"
+            style="@style/mmw"
+            android:background="@color/transparent"
+            android:gravity="center_vertical"
+            android:hint="输入评论"
+            android:imeOptions="flagNoExtractUi"
+            android:maxLines="1"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/buttonDark"/>
+
+        <TextView
+            android:id="@+id/bottom_bar_send"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_button_dark"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Send"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/bottom_bar_fullscreen_exit"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/background_button_light"
+        android:padding="8dp"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:visibility="gone"/>
+
+</LinearLayout>

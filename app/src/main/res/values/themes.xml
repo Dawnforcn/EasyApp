@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.EasyApp.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="actionBarTheme">@style/Theme.EasyApp.Widget.ActionBar</item>
+    </style>
+
+    <style name="Theme.EasyApp" parent="Theme.EasyApp.Base"/>
+
+    <style name="Theme.EasyApp.Translucent" parent="Theme.EasyApp">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <style name="Theme.EasyApp.TranslucentActionBar" parent="Theme.EasyApp">
+        <item name="actionBarTheme">@style/Theme.EasyApp.Widget.ActionBar.Translucent</item>
+    </style>
+
+    <style name="Theme.EasyApp.FullScreen" parent="Theme.EasyApp">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.EasyApp.Widget"/>
+
+    <style name="Theme.EasyApp.Widget.ActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Theme.EasyApp.Widget.ActionBar.Translucent" parent="Theme.EasyApp.Widget.ActionBar">
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+</resources>

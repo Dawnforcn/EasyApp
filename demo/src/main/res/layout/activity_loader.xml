@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/mm.v"
+    android:background="@color/background">
+
+    <LinearLayout
+        style="@style/mw.v">
+
+        <include
+            layout="@layout/widget_toolbar_navigation"/>
+
+        <Button
+            android:id="@+id/loader_load_text"
+            style="@style/ww"
+            android:text="加载网络文本"/>
+
+        <TextView
+            android:id="@+id/loader_text"
+            style="@style/ww"
+            android:layout_margin="8dp"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/loader_load_image"
+            style="@style/ww"
+            android:text="加载网络图片"/>
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/loader_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@color/gray"
+            android:padding="2dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

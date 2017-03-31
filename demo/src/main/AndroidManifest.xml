@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.harreke.easyapp.demo"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".singleton.Demo"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Demo">
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.ToolbarActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_toolbar"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+
+        <activity
+            android:name=".activity.ToastActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_toast"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+
+        <activity
+            android:name=".activity.FragmentDataActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_fragment_data"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+
+        <activity
+            android:name=".activity.ConnectionChangeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_connection_change"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+
+        <activity
+            android:name=".activity.SwipeToFinishActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_swipe_to_finish"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo.Translucent"/>
+
+        <activity
+            android:name=".activity.LoaderActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_loader"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+
+        <!--<activity-->
+            <!--android:name=".activity.RecyclerActivity"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:label="@string/activity_recycler"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/Theme.Demo"/>-->
+
+        <!--<activity-->
+            <!--android:name=".activity.WebActivity"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:label="@string/activity_web"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/Theme.Demo"/>-->
+
+        <activity
+            android:name=".activity.ViewPagerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_viewpager"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+
+        <activity
+            android:name=".activity.FragmentPagerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_fragment_pager"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+
+        <activity
+            android:name=".activity.CompoundButtonActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_compound_button"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+
+        <activity
+            android:name=".activity.GestureActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_gesture"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+
+        <activity
+            android:name=".activity.PaletteActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_palette"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+        <activity
+            android:name=".activity.InjectionActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_injection"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+
+        <activity
+            android:name=".activity.ViewSwitchActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_view_switch"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+
+        <activity
+            android:name=".activity.ViewAnimatorActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_view_animator"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+
+        <activity
+            android:name=".activity.AutoFitViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_auto_fit_view"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+
+        <activity
+            android:name=".activity.CircularProgressActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_circular_progress"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+
+        <activity
+            android:name=".activity.ControllerLayoutActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+
+        <activity
+            android:name=".activity.RatioViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_ratio_view"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+
+        <activity
+            android:name=".activity.SizableDrawableViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_sizable_drawable_view"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+
+        <activity
+            android:name=".activity.GridImageViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_sizable_drawable_view"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+
+        <activity
+            android:name=".activity.SoftInputEditTextActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_sizable_drawable_view"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+
+        <activity
+            android:name=".activity.UtilActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_util"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Demo"/>
+
+    </application>
+
+</manifest>
